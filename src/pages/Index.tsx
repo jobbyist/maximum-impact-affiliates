@@ -2,6 +2,8 @@ import Header from "@/components/Header";
 import ArticleCard from "@/components/ArticleCard";
 import HeroSection from "@/components/HeroSection";
 import IntroSection from "@/components/IntroSection";
+import HowItWorks from "@/components/HowItWorks";
+import PartnerPerks from "@/components/PartnerPerks";
 import { articles } from "@/data/articles";
 
 const Index = () => {
@@ -17,6 +19,12 @@ const Index = () => {
 
         {/* Intro Section */}
         <IntroSection />
+
+        {/* How It Works Section */}
+        <HowItWorks />
+
+        {/* Partner Perks Section */}
+        <PartnerPerks />
 
         {/* Featured Articles Grid */}
         <section id="articles" className="py-12">
@@ -39,9 +47,9 @@ const Index = () => {
         {/* Newsletter Section */}
         <section className="my-20 rounded-[2.5rem] bg-card p-12 md:p-16 text-center animate-scale-in">
           <div className="max-w-2xl mx-auto space-y-8">
-            <h2 className="text-4xl md:text-5xl font-bold tracking-tight">Stay inspired.</h2>
+            <h2 className="text-4xl md:text-5xl font-bold tracking-tight">Ready to start earning?</h2>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Subscribe to receive our latest articles and insights directly in your inbox.
+              Join our affiliate program today and unlock your earning potential with Maximum Impact Travel Services.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
               <input
@@ -50,7 +58,7 @@ const Index = () => {
                 className="flex-1 px-6 py-4 rounded-full border border-input bg-background focus:outline-none focus:ring-2 focus:ring-ring transition-all"
               />
               <button className="px-10 py-4 rounded-full bg-primary text-primary-foreground font-medium hover:bg-primary/90 hover:scale-105 transition-all">
-                Subscribe
+                Get Started
               </button>
             </div>
           </div>
@@ -94,7 +102,7 @@ const Index = () => {
             </div>
           </div>
           <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
-            <p>© 2025 Perspective. All rights reserved.</p>
+            <p>© 2025 Maximum Impact Travel Services. All rights reserved.</p>
           </div>
         </div>
       </footer>

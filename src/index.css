@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Warm, sophisticated palette inspired by the design */
+    /* Maximum Impact Travel Services color scheme */
     --background: 36 44% 96%;
     --foreground: 0 0% 18%;
 
@@ -18,7 +18,7 @@ All colors MUST be HSL.
     --popover: 36 44% 96%;
     --popover-foreground: 0 0% 18%;
 
-    --primary: 0 0% 18%;
+    --primary: 34 54% 48%;
     --primary-foreground: 36 44% 96%;
 
     --secondary: 25 30% 70%;
@@ -27,7 +27,7 @@ All colors MUST be HSL.
     --muted: 33 30% 88%;
     --muted-foreground: 0 0% 40%;
 
-    --accent: 140 20% 50%;
+    --accent: 6 65% 35%;
     --accent-foreground: 36 44% 96%;
 
     --destructive: 0 84% 60%;
@@ -66,7 +66,7 @@ All colors MUST be HSL.
     --popover: 0 0% 10%;
     --popover-foreground: 36 44% 96%;
 
-    --primary: 36 44% 96%;
+    --primary: 34 54% 58%;
     --primary-foreground: 0 0% 18%;
 
     --secondary: 25 15% 30%;
@@ -75,7 +75,7 @@ All colors MUST be HSL.
     --muted: 0 0% 20%;
     --muted-foreground: 0 0% 60%;
 
-    --accent: 140 20% 45%;
+    --accent: 6 65% 45%;
     --accent-foreground: 36 44% 96%;
 
     --destructive: 0 62% 50%;
