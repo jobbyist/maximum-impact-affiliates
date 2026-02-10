@@ -18,17 +18,17 @@ const HeroSection = () => {
         <div className="flex flex-col justify-center space-y-6 md:space-y-8">
           <div className="space-y-4 md:space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] tracking-tight animate-slide-down">
-              Journey Through Life's Spectrum
+              Partner with Maximum Impact Travel Services
             </h1>
             <p className="text-muted-foreground text-lg md:text-xl leading-relaxed max-w-xl animate-slide-up stagger-1">
-              Welcome to Perspective's Blog: A Realm of Reflection, Inspiration, and Discovery. Where Words Illuminate
-              Paths of Meaning and Thoughts Unravel the Mysteries of Life's Spectrum.
+              Join our affiliate program and unlock powerful earning opportunities. Promote world-class travel services 
+              while earning competitive commissions with dedicated support every step of the way.
             </p>
           </div>
 
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 md:gap-6 pt-4 animate-slide-up stagger-2">
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 py-4 md:px-10 md:py-6 text-base font-medium transition-all hover:scale-105 w-full sm:w-auto">
-              Join Now
+              Join Our Affiliate Program
             </Button>
 
             <div className="flex items-center gap-4">
