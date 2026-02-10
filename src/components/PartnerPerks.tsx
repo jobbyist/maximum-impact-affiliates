@@ -51,7 +51,7 @@ const PartnerPerks = () => {
           Partner Perks
         </h2>
         <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed animate-slide-up stagger-1">
-          Discover our competitive affiliate benefits and unlock powerful marketing tools and world class support 
+          Discover our competitive affiliate benefits and unlock powerful marketing tools and world-class support 
           to help you make the most out of our program
         </p>
       </div>
